@@ -1,13 +1,10 @@
-[build-system]
-requires = ["flit_core >=3.2,<4"]
-build-backend = "flit_core.buildapi"
-
 [project]
-name = "property_investment_with_probabilities"
-version = "0.0.1"
-description = "A short description of the project."
+name = "probabilistic-property"
+version = "0.1.0"
+description = "Default template for PDM package"
 authors = [
-  { name = "Caleb" },
+    { name = "Caleb" },
+    {name = "Caleb Mah", email = "calebmahweekeat@gmail.com"},
 ]
 
 readme = "README.md"
@@ -32,7 +29,8 @@ dependencies = [
     "tqdm",
     "typer",
 ]
-requires-python = "~=3.13.0"
+requires-python = "==3.13.*"
+license = {text = "MIT"}
 
 
 [tool.ruff]
@@ -47,3 +45,6 @@ extend-select = ["I"]  # Add import sorting
 known-first-party = ["property_investment_with_probabilities"]
 force-sort-within-sections = true
 
+
+[tool.pdm]
+distribution = false
