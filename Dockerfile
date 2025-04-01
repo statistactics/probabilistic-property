@@ -1,4 +1,4 @@
-ARG PYTHON_BASE=3.13.2
+ARG PYTHON_BASE=3.13
 
 # Build stage, referencing the PYTHON_BASE variable
 FROM python:$PYTHON_BASE AS BUILDER
