@@ -21,7 +21,7 @@ dependencies = [
     "notebook",
     "numpy",
     "pandas>=2.2.3",
-    "pip",
+    "pip>=25.0.1",
     "pytest",
     "python-dotenv",
     "ruff",
@@ -32,6 +32,8 @@ dependencies = [
     "sktime>=0.36.0",
     "orbit>=0.2",
     "numpyro>=0.18.0",
+    "jupyter>=1.1.1",
+    "ipykernel>=6.29.5",
 ]
 requires-python = "==3.13.*"
 license = {text = "MIT"}
